@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+body {
+    background-color: black;
+}
+main {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    max-width: 700px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 5px 5px 10px black;
+}
+main2 {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    width: 800px;
+    border-radius: 10%;
+    padding: 10px;
+    box-shadow: 5px 5px 10px black;}
+ 
