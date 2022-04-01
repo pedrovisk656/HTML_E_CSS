@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'passion one';
+    src: url('PassionOne-Regular.ttf')fomat('truetype');
+}
+/*configurações iniciais*/
+body{
+    margin: 0px;
+}
+
+/*titulo*/
+#titulo {
+    margin: 0%;
+    background-color: black;
+    color: white;
+}
+#titulo > h1 {
+    font-family: 'passion one';
+    padding-top:50px;
+    text-align: center;
+    font-size:  xx-large;
+    margin: 0%;
+}
