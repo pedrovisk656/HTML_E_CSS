@@ -1,13 +1,10 @@
 @charset "UTF-8";
-@font-face {
-    font-family: 'passion one';
-    src: url('PassionOne-Regular.ttf')fomat('truetype');
-}
+
+
 /*configurações iniciais*/
 body{
     margin: 0px;
 }
-
 /*titulo*/
 #titulo {
     margin: 0%;
@@ -15,9 +12,51 @@ body{
     color: white;
 }
 #titulo > h1 {
-    font-family: 'passion one';
+    font-size: 50px;
     padding-top:50px;
     text-align: center;
-    font-size:  xx-large;
     margin: 0%;
+}
+#titulo > h2{
+    margin:0%;
+    text-align: center;
+    padding-bottom: 55px;
+}
+/*paragrafos*/
+#p01 {
+    margin: 0%;
+    line-height: 2em;
+    font-weight:550;
+    font-family: cursive;
+    padding: 61.1px 30px;
+    font-size: 3.5vw;
+}
+
+
+
+#p02 {
+    width: 275px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:  rgb(255, 255, 255);
+    padding: 5px;
+
+
+    line-height: 2em;
+    font-weight:550;
+    font-family: cursive;
+    font-size: 3.5vw;
+}
+#imagem {
+    padding-left: 61.1px 30px;
+    background-image: url(imagens/background001.jpg);
+}
+
+
+#p03 {
+    margin: 0%;
+    line-height: 2em;
+    font-weight:550;
+    font-family: cursive;
+    padding: 61.1px 30px;
+    font-size: 3.5vw;
 }
