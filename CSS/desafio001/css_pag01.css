@@ -23,7 +23,15 @@ body{
     padding-bottom: 55px;
 }
 /*paragrafos*/
-#p01 {
+.p01 {
+    margin: 0%;
+    line-height: 2em;
+    font-weight:550;
+    font-family: cursive;
+    padding: 61.1px 30px;
+    font-size: 3.5vw;
+}
+.p03 {
     margin: 0%;
     line-height: 2em;
     font-weight:550;
@@ -33,26 +41,55 @@ body{
 }
 
 
-
-#p02 {
-    background-color: rgba(0, 0, 0, 0.486) ;
-
-
-    position: absolute;
+#dentro{
+    padding: 5px;
+    margin: 0%;
+    color: white;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.336) ;
     line-height: 2em;
     font-weight:550;
     font-family: cursive;
-    font-size: 3.5vw;
+    font-size: 3vw;
 }
 
 #imagem {
-    position: relative;
+    padding: 61.1px 30px;
+    background-image: url(imagens/background001.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center ;
 }
-#p03 {
+.p04 {
+    padding: 5px;
     margin: 0%;
+    color: white;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.336) ;
     line-height: 2em;
     font-weight:550;
     font-family: cursive;
-    padding: 61.1px 30px;
-    font-size: 3.5vw;
+    font-size: 3vw;
 }
+#imagem2 {
+    padding: 61.1px 30px;
+    background-image: url(imagens/background002.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center ;
+}
+
+/*footer no final da pagina*/
+footer {
+    font-family:sans-serif;
+    padding: 5px;
+    text-align: center;
+    margin: 0px;
+    color: white;
+    background-color: black;
+}
+footer > h3{
+    margin: 0%;
+}
+
+
