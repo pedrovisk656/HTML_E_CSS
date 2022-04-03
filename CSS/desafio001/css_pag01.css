@@ -35,23 +35,19 @@ body{
 
 
 #p02 {
-    width: 275px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color:  rgb(255, 255, 255);
-    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.486) ;
 
 
+    position: absolute;
     line-height: 2em;
     font-weight:550;
     font-family: cursive;
     font-size: 3.5vw;
 }
+
 #imagem {
-    padding-left: 61.1px 30px;
-    background-image: url(imagens/background001.jpg);
+    position: relative;
 }
-
-
 #p03 {
     margin: 0%;
     line-height: 2em;
