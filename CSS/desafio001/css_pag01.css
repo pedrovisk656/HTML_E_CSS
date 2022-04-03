@@ -1,23 +1,31 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family:passion one;
+    src: url("PassionOne-Regular.ttf") format('truetype');
+}
 
 /*configurações iniciais*/
 body{
     margin: 0px;
 }
 /*titulo*/
-#titulo {
+header {
     margin: 0%;
     background-color: black;
     color: white;
 }
-#titulo > h1 {
-    font-size: 50px;
+header > h1 {
+    font-variant: small-caps;
+    font-family: "passion one";
+    font-size: 70px;
     padding-top:50px;
     text-align: center;
     margin: 0%;
 }
-#titulo > h2{
+header > p{
+    font-family:sans-serif;
+    font-weight: lighter;
     margin:0%;
     text-align: center;
     padding-bottom: 55px;
@@ -42,11 +50,12 @@ body{
 
 
 #dentro{
+    text-shadow: 1px 1px 5px black;
     padding: 5px;
     margin: 0%;
     color: white;
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.336) ;
+    background-color: rgba(22, 22, 22, 0.336) ;
     line-height: 2em;
     font-weight:550;
     font-family: cursive;
@@ -54,6 +63,7 @@ body{
 }
 
 #imagem {
+    box-shadow: inset 1px 1px 20px black;
     padding: 61.1px 30px;
     background-image: url(imagens/background001.jpg);
     background-attachment: fixed;
@@ -61,6 +71,14 @@ body{
     background-position: center center ;
 }
 .p04 {
+    margin: 0%;
+    line-height: 2em;
+    font-weight:550;
+    font-family: cursive;
+    padding: 61.1px 30px;
+    font-size: 3.5vw;
+}
+.p05 {
     padding: 5px;
     margin: 0%;
     color: white;
@@ -72,13 +90,29 @@ body{
     font-size: 3vw;
 }
 #imagem2 {
+    box-shadow: inset  1px 1px 20px black;
     padding: 61.1px 30px;
     background-image: url(imagens/background002.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center center ;
 }
-
+.p06 {
+    margin: 0%;
+    line-height: 2em;
+    font-weight:550;
+    font-family: cursive;
+    padding: 61.1px 30px;
+    font-size: 3.5vw;
+}
+.p07 {
+    margin: 0%;
+    line-height: 2em;
+    font-weight:550;
+    font-family: cursive;
+    padding: 61.1px 30px;
+    font-size: 3.5vw;
+}
 /*footer no final da pagina*/
 footer {
     font-family:sans-serif;
@@ -88,7 +122,7 @@ footer {
     color: white;
     background-color: black;
 }
-footer > h3{
+footer > p{
     margin: 0%;
 }
 
